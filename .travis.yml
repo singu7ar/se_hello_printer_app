@@ -11,4 +11,5 @@ install:
 
 script:
         - make test
-        - make docker_build     
+        - make docker_build
+        - make docker_push     
